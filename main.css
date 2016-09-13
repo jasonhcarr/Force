@@ -2,13 +2,15 @@ h2 {
   font-weight: bold
 }
 fieldset{
+  margin-top: 0;
+  margin-bottom: 0;
   width: 30%;
   float: left;
 }
 label {
   font-weight: bold;
 }
-input {}
+
 li {
   padding-top: 2px;
   padding-bottom: 2px;
@@ -17,7 +19,4 @@ ul {
   list-style: none;
   padding-left: 0px;
   padding-right: 0px;
-  padding-top: 0px;
-  padding-bottom: : 0px;
-
 }
