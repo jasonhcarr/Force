@@ -10,7 +10,7 @@
       <legend>Basic info</legend>
       <ul>
       <li><label for="name">Full Name</label><br>
-        <input name="name" type="text" width="100%" placeholder="Luke Skywalker" required><br></li>
+        <input name="name" type="text" placeholder="Luke Skywalker" required><br></li>
       <li><label for="picture">Profile Pic</label><br>
         <input name="picture" type="file" placeholder="Choose File" required><br></li>
       <li><label for="email">Email</label><br>
@@ -25,7 +25,7 @@
     <fieldset>
       <legend>Abilities</legend>
       <ul>
-        <li><label for="lightSaberColor" placeholder="Select Color">Light Saber Color</label><br>
+        <li><label for="lightSaberColor">Light Saber Color</label><br>
           <select name="lightsaberColor" required><br>
             <option>Select Color</option>
             <option>Blue</option>
@@ -34,4 +34,24 @@
             <option>Blue</option></li>
           </select><br>
         <li><label for="levitate">How Many Objects Can You Levitate At Once</label><br>
-          <input id="levitate" type="number" min="0" max="9999" step="1" value ="0"/>
+          <input id="levitate" type="number" min="0" max="9999" step="1" value ="0"/><br></li>
+          <li><label for="pilotExperience">Pilot Experience</label><br>
+            <input name="pilotExperience" type="checkbox">Speeder
+            <input name="pilotExperience" type="checkbox">Transport
+            <input name="pilotExperience" type="checkbox">X-Wing
+            <input name="pilotExperience" type="checkbox">TIE Fighter
+            <input name="pilotExperience" type="checkbox">Starship
+            <input name="pilotExperience" type="checkbox">Bantha</li>
+    </fieldset>
+    <fieldset>
+      <legend>Application Info</legend>
+      <ul>
+        <li><label for="desiredMentor">Desired Mentor</label><br>
+          <input name="desiredMentor" type="text" placeholder="Yoda" required><br></li>
+        <li><label for="applicationDate">Application Date</label><br>
+          <input name="applicationDate" type="date" required><br></li>
+        <li><label for="password">Application Password</label><br>
+          <input name="password" type="password" required><br></li>
+        <li><label="theDarkSide">How Do You Get To The Dark Side</label><br>
+          <input type="text" name="theDarkSide" required><br></li>
+          
